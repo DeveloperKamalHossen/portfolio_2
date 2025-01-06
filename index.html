@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Kamal Hossen</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c640ffaeb7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Header Section Starts -->
+<div id="header">
+    <div class="container">
+       <nav>
+        <img src="Image/logo.webp"  class="logo" alt="Logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+       </nav>
+       <div class="header-text">
+        <p>Full Stack Web Developer</p>
+        <h1>Hi, I'm <span>Developer Kamal</span><br> Hossen From Bangladesh</h1>
+       </div>
+    </div>
+</div>
+    <!-- Header Section Ends -->
+
+
+    <!-- About Section Starts  -->
+    <div id="about">
+     <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Image/about2.jpeg" alt="About Image">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-tittle">About <span style="color: white;">Me</span></h1>
+                <hr>
+                <p>Hi, I am Developer Kamal Hossen. I am an expert in Full Stack Web Developer And WordPress Development. I am a skilled web designer with over 4 years of experience in the industry. I develop 400+ WordPress websites in my career. My passion lies in creating captivating website designs and implementing them through frontend development. I take pride in staying up-to-date with current design trends and leveraging my creativity to produce visually appealing and user-friendly websites. I focus on understanding your requirements, and then acting on your needs to deliver highly professional WordPress website Design.</p>
+                <div class="tab-tittles">
+                 <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                 <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                 <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>App Development</span><br>Building Android/ios apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2020 - Current</span><br>UI/UX Design Training at W3 Topper Institute</li>
+                        <li><span>2019 - 2021</span><br>Team Lead at W3 Topper Institute</li>
+                        <li><span>2017 - 2019</span><br>UI/UX Design Executive at W3 Topper Institute</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020</span><br>UI/UX Design Training at W3 Topper Institute</li>
+                        <li><span>2015</span><br>MBBS from Kobi Nazrul Govt. Collage</li>
+                        <li><span>2014</span><br>BBS from Sayed Bazlul Haque Drgee Collage</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+     </div>
+    </div>
+
+    <!-- About Section Ends  -->
+
+    <!-- Services Section Starts  -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-tittle"><span style="color: white;">My </span> Services </h1>
+            <div class="services-list">
+              <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nam blanditiis qui omnis! Vel, numquam laboriosam a ad optio non praesentium! Dolores consectetur impedit expedita nihil laboriosam minima libero iusto!</p>
+                <a href="#">Learn More</a>
+              </div>  
+              <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nam blanditiis qui omnis! Vel, numquam laboriosam a ad optio non praesentium! Dolores consectetur impedit expedita nihil laboriosam minima libero iusto!</p>
+                <a href="#">Learn More</a>
+              </div>  
+              <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nam blanditiis qui omnis! Vel, numquam laboriosam a ad optio non praesentium! Dolores consectetur impedit expedita nihil laboriosam minima libero iusto!</p>
+                <a href="#">Learn More</a>
+              </div>  
+            </div>
+        </div>
+    </div>
+    <!-- Services Section Ends  -->
+
+    <!-- Portfolio Section Starts  -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-tittle">My <span style="color: white;">Work</span></h1>
+            
+            <div class="work-list">
+                <div class="work">
+                    <img src="Image/portfolio1.webp" alt="Work Image">
+                    <div class="layer">
+                        <h3>Web Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis velit repellat tempora obcaecati sint? Minus in porro reiciendis inventore repellat.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Image/portfolio2.webp" alt="Work Image">
+                    <div class="layer">
+                        <h3>Mobile App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis velit repellat tempora obcaecati sint? Minus in porro reiciendis inventore repellat.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Image/portfolio3.webp" alt="Work Image">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis velit repellat tempora obcaecati sint? Minus in porro reiciendis inventore repellat.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Image/portfolio1.webp" alt="Work Image">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis velit repellat tempora obcaecati sint? Minus in porro reiciendis inventore repellat.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Image/portfolio2.webp" alt="Work Image">
+                    <div class="layer">
+                        <h3>eCommerce Website</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis velit repellat tempora obcaecati sint? Minus in porro reiciendis inventore repellat.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Image/portfolio3.webp" alt="Work Image">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis velit repellat tempora obcaecati sint? Minus in porro reiciendis inventore repellat.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+     </div>
+
+     <!-- Contact From Section Starts -->
+
+      <div id="contact">
+        <div class="container">
+            <h1 class="sub-tittle2"><span style="color: white;">Contact</span> Me</h1>
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle3"><span style="color: #fec544;">Developer Kamal Hossen</span></h1>
+                    <!-- <p><span style="color: #fec544;">Email : </span> developerkamal742@gmail.com</p>
+                    <p><span style="color: #fec544;">Phone : </span>+880 1717 692742</p> -->
+                    <p>
+                        Web Developer (Full Stack Web Developer And WordPress Expert) <br>
+                        Are You Looking For Your Business Online Presence?<br>
+                        I am here. 🙂 <br> <br>
+
+                       <span style="color: #fec544;"> Email :</span><br> info@developerkamalgmail.com <br>
+                        developerkamal742@gmail.com<br> <br>
+
+                        <span style="color: #fec544;">Phone :</span> <br>
+                        +880 1717 692742<br> <br>
+
+                        <span style="color: #fec544;">Address :</span><br>
+                       Dhaka, Bangladesh
+                    </p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Image/my-cv.pdf" download="my-cv" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                   <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                   <button type="submit" class="btn btn3">Submit</button>
+                   </form> 
+                   <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>©Copyright 2023. <span style="color: red;">Developer Kamal Hossen</span>. All Rights Reserved.</p>
+        </div>
+      </div>
+
+
+    <script src="script.js"></script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyidNfvdFcOYSNFO422Ioy47Z5Bz6soDhYuWEC86y5UN5GDmVli4KwhO71UK0nRO_2aDQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message send successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+</html>
